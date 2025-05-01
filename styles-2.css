@@ -1,0 +1,142 @@
+body {
+    margin: 50px;
+    background: #e2e5d7;
+    color: #1f1f1e;
+    font-family: 'Syne-mono', monospace;
+    font-size: 16px;
+    background-image: url(Imagenes/Brassai967edit.png) ;
+    max-width: 100vw;
+}
+
+.header{ text-align: center;
+    background-color: #070707;
+    padding: 20px 0;
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.description{
+    font-size: 2.5rem;
+    font-family: 'Gasoek One', sans-serif;
+    margin: 0;
+
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-img{
+    height: auto;
+}
+
+.header-title{
+    font-family: gasoek one;
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+    margin: 0;
+}
+
+.index{
+display: flex;
+gap: 20px; 
+justify-content: center;
+margin-bottom: 30px;
+flex-wrap: wrap;}
+
+.index a {
+text-decoration: none;
+color: #141412;
+font-weight: bold;
+padding: 5px 10px;
+border: 1px solid #141412;
+border-radius: 5px;
+transition: background 0.3s;
+}
+
+.index a:hover {
+background: #141412;
+color: #e2e5d7;
+}
+
+section.terminos {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f6f7f2;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.801);
+    line-height: 1.8;
+}
+
+.terminos h2 {
+    font-family: 'Gasoek One', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    letter-spacing: 0.5em;
+    margin-bottom: 0.5rem;
+}
+.terminos h2 span {
+    display: block;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 3rem;
+    letter-spacing: normal;
+    margin-top: 0.2rem;
+}
+.logo-img{
+    max-height: 3rem;
+    display: inline-block;
+}
+h3 {
+    font-size: 1.5em;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+ul {
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+p, ul {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.little{
+    font-size: 0.7rem;
+}
+
+.firma{
+    max-height: 150px;
+    align-items: center; 
+    margin: 0;
+}
+footer{
+    width: 100vw;
+    background-color: #070707;
+    color: #e2e5d7;
+}
+
+@media (max-width: 600px) {
+    .description {
+        font-size: 1.5rem;
+    }
+    .header-title {
+        font-size: 2rem;
+        letter-spacing: 0.2rem;
+    }
+    .terminos {
+        padding: 20px;
+    }
+}
+
